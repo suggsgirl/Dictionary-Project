@@ -1,19 +1,30 @@
-body {background: rgb(214, 233, 245);
-color: rgb(0, 0, 39); 
+body {
+  background-image: url("https://theknow.denverpost.com/wp-content/uploads/2020/04/GettyImages-1089392442.jpg");
+  background-repeat: no-repeat;
+  background-size: 3300px 2500px;
+  color: rgb(0, 0, 39);
 }
 
 .App {
-  margin: 0 auto; 
+  margin: 0 auto;
   text-align: center;
-  max-width: 1400px; 
- }
+  max-width: 1400px;
+}
 
 .App-header {
-  font-size: 20px; 
+  font-size: 30px;
   font-weight: bold;
-  margin: 25px 0; 
- }
+  background: rgb(243, 249, 253, 0.8);
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.App-header .quote {
+  font-size: 15px;
+  font-weight: lighter;
+}
 
 .App-footer {
-  margin: 25px 0; 
+  margin: 25px 0;
 }
